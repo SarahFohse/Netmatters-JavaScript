@@ -1,0 +1,133 @@
+
+.message {
+  position: fixed;
+  right: 1%;
+  bottom: 3%;
+  z-index: 2;
+
+  i {
+    font-size: 2em;
+    color: $white;
+  }
+  button {
+    background-color: $blackish;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    cursor: pointer;
+  }
+}
+
+.consent {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+
+  button {
+    background-color: $consent;
+    color: $white;
+    border-radius: 0 10px 0 0;
+    font-weight: bold;
+    padding: 4px 13px;
+    border-style: none;
+    cursor: pointer;
+  }
+}
+.scroll {
+  overflow-y: scroll;
+  position: fixed;
+  z-index: 110;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding: 30px;
+  display: flex;
+}
+
+#consent-popup {
+  background-color: $white;
+  border-radius: 5px;
+  margin: auto;
+
+  h5 {
+    color: $blackish;
+    font-size: 1.6em;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: none;
+  }
+  p {
+    color: #666;
+    margin: 15px 25px 40px 20px;
+    line-height: 2em;
+  }
+  button {
+    color: $white;
+    padding: 5px 35px;
+    margin: 15px 20px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 1.1em;
+    line-height: 2em;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: #666;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.popup-btn {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.stop-scrolling {
+  overflow-y: hidden;
+}
+#settings {
+  background-color: $manatee;
+
+  &:hover {
+    background-color: $manatee-dark;
+  }
+}
+
+#accept {
+  background-color: $purple;
+
+  &:hover {
+    background-color: $purple-dark;
+  }
+}
+
+.cookie-bg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+  &.bg-hidden {
+    display: none;
+  }
+}
+
+.hide {
+  display: none;
+}

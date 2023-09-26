@@ -1,0 +1,419 @@
+@media screen and (min-width: 400px) {
+  .slider-img.first-active {
+    height: 550px;
+  }
+}
+@media screen and (min-width: 462px) {
+  .footer-icon a {
+      padding: 15px 20px;
+  }
+
+  footer img {
+    min-width: 250px;
+    max-width: 320px;
+  }
+  .slider-container {
+    padding: 40px 0;
+  }
+  
+}
+@media screen and (min-width: 576px) {
+  .slider-container {
+    padding: 75px 0;
+  }
+  
+}
+@media screen and (min-width: 600px) {
+  .welcome-link {
+      display: inline-block;
+      margin: 12px;
+      margin-left: -5px;
+  }
+  .work-showcase a:nth-child(-n+5) {
+      display: inline-flex;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header-buttons {
+      justify-content: right;
+  }
+  .search-bar {
+      display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+      width: 750px;
+  }
+  button .fa-phone-volume {
+    display: none;
+  }
+  .fa-bars {
+    margin-right: 2%;
+  }
+ .search-bar {
+  max-width: 243px;
+ }
+  .search-bar button {
+  background-color: $manatee;
+  color: $white;
+  padding: 0 20px;
+  font-size: 1em;
+  }
+  .searchBox {
+      background-color: $white;
+      max-width: 175px;
+  }
+  .search-mobile {
+      display: none;
+  }
+  .slider-img.first-active {
+    height: 600px;
+  }
+  .slider-img h3 {
+      margin-top: 30px
+  }
+  .slider-btn {
+      margin-top: 50px;
+  }
+
+  .tab-1 {
+      grid-area: tabone;
+  }
+  .tab-2 {
+      grid-area: tabtwo;
+  }
+  
+  .tab-3 {
+      grid-area: tabthree;
+  }
+  
+  .tab-4 {
+      grid-area: tabfour;
+  }
+  
+  .tab-5 {
+      grid-area: tabfive;
+  }
+  
+  .tab-6 {
+      grid-area: tabsix;
+  }
+  
+  .tab-7 {
+      grid-area: tabseven;
+  }
+  .tab-container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+      'tabone tabone'
+      'tabtwo tabtwo'
+      'tabthree tabthree'
+      'tabfour tabfive'
+      'tabsix tabseven';
+  }
+  .view-hidden {
+      visibility: visible;
+  }
+
+  .view-work {
+      display: none;
+  }
+
+
+  .view-all-hidden {
+      visibility: visible;
+  }
+  .view-work-all {
+      display: none;
+  }
+  .news-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+  }
+  .article-3 {
+      display: none;
+  }
+  .footer-nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 3em;
+  }
+  h5 {
+      font-size: 1.1em;
+  }
+  .footer-nav li {
+      font-size: .9em;
+      line-height: 1.8em;
+  }
+  .footer-bottom {
+      height: 50px;
+  }
+  .footer-bottom br {
+      display: none;
+  }
+  .footer-bottom p {
+      font-size: .9em;
+  }
+  main {
+    margin-top: 120px;
+  }
+  #consent-popup {
+    width: 600px;
+  }
+  #consent-popup button {
+    width: 50%;
+  }
+  .popup-btn {
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (min-width: 992px) {
+.only-mobile {
+  display: none;
+}
+.nav-item-hidden {
+  display: none;
+}
+
+.mobile-expanded {
+  display: none;
+}
+
+.title-tab, 
+.title-tab + li {
+  display: none;
+}
+
+.mobile-hidden {
+  display: block;
+}
+
+#close-side-menu.side-menu-active,
+body.side-menu-active {
+  right: 350px;
+}
+
+#side-menu-section {
+  width: 350px;
+}
+
+main {
+  margin-top: 210px;
+}
+.container {
+  width: 970px;
+}
+.search-bar {
+    max-width: 66px;
+}
+
+.search-bar button {
+  border-radius: 5%;
+}
+
+.searchBox {
+  display: none;
+}
+
+.header-buttons {
+  width: 520px;
+  gap: 15px;
+}
+
+.icon-disabled {
+  display: inline;
+}
+.main-nav > li a::after {
+  border-right-width: 67px;
+  border-left-width: 67px;
+}
+.desktop-nav {
+  display: block;
+}
+.slider-container {
+    padding: 35px 0;
+}
+.slider-img {
+  text-align: left;
+  background-image:
+  linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(255, 255, 255, .1)),url('../images/slide-image.png');
+}
+.slider-container {
+  margin-left: 10px;
+}
+.slider-btn {
+  margin-top: 0px;
+}
+.slider-img h3 {
+  font-size: 4em;
+  padding: 0;
+}
+.slider-img p {
+  font-size: 1.625em;
+  margin-left: 0;
+}
+
+.tab-1 {
+  grid-area: tabone;
+}
+.tab-2 {
+    grid-area: tabtwo;
+}
+
+.tab-3 {
+    grid-area: tabthree;
+}
+
+.tab-4 {
+    grid-area: tabfour;
+}
+
+.tab-5 {
+    grid-area: tabfive;
+}
+
+.tab-6 {
+    grid-area: tabsix;
+}
+
+.tab-7 {
+    grid-area: tabseven;
+}
+.tab-container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    'tabone tabone tabtwo tabtwo tabthree tabthree'
+    'tabfour tabfour tabfour tabfive tabfive tabfive'
+    'tabsix tabsix tabsix tabseven tabseven tabseven';
+}
+.container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-container {
+  width: 45%;
+}
+.name,
+.email {
+  display: inline-block;
+  width: 48%;
+}
+.name {
+  margin-right: 25px;
+}
+.footer-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 3em;
+}
+h5 {
+  font-size: 1em;
+}
+
+
+.footer-nav ul {
+  margin-bottom: 10px;
+}
+.footer-nav li {
+  font-size: .8125em;
+  line-height: 1.8em;
+}
+.footer-bottom p {
+  font-size: .8125em;
+}
+}
+@media screen and (min-width: 1260px) {
+.container {
+  width: 1210px;
+}
+.header-buttons {
+    width: 1100px;
+}
+.search-bar {
+    max-width: 306px;
+    justify-content: flex-end;
+}
+
+.search-bar button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.searchBox {
+  display: block;
+  max-width: 240px;
+}
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.article-3 {
+  display: block;
+}
+.tab-1 {
+  grid-area: tabone;
+}
+.tab-2 {
+    grid-area: tabtwo;
+}
+
+.tab-3 {
+    grid-area: tabthree;
+}
+
+.tab-4 {
+    grid-area: tabfour;
+}
+
+.tab-5 {
+    grid-area: tabfive;
+}
+
+.tab-6 {
+    grid-area: tabsix;
+}
+
+.tab-7 {
+    grid-area: tabseven;
+}
+.tab-container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    'tabone tabone tabone tabone tabtwo tabtwo tabtwo tabtwo tabthree tabthree tabthree tabthree'
+    'tabfour tabfour tabfour tabfive tabfive tabfive tabsix tabsix tabsix tabseven tabseven tabseven';
+}
+
+
+
+
+
+.work-showcase a:nth-child(-n+12) {
+    display: inline-flex;
+}
+
+.main-nav > li a::after {
+  border-right-width: 84px;
+  border-left-width: 84px;
+}
+.hidden-nav .h2 {
+  margin-left: -10px;
+}
+.hidden-nav a {
+  margin-left: -10px;
+}
+
+footer img {
+  margin-top: -80px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.footer-icon {
+  flex-wrap: nowrap;
+}
+}

@@ -1,0 +1,88 @@
+footer {
+  background-color: $tuna;
+  text-align: left;
+
+  img {
+    margin-top: 30px;
+    max-width: 247px;
+    min-width: 220px;
+  }
+}
+
+.footer-text {
+  color: #fff;
+  text-transform: uppercase; 
+  font-weight: 400;
+}
+.footer-icon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+
+  a {
+    background-color: $ebony;
+    margin: 5px;
+    padding: 15px 28px;
+  }
+  a:nth-child(1):hover {
+  background-color: $facebook;
+  }
+  a:nth-child(2):hover {
+  background-color: $linkedin;
+  }
+  a:nth-child(3):hover {
+  background-color: $twitter;
+  }
+  a:nth-child(4):hover {
+  background-color: $insta;
+  }
+}
+.fa-brands {
+  color: white;
+  font-size: 1.6em;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+}
+h5 {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.footer-nav ul {
+  padding-left: 0;
+  margin-bottom: 35px;
+}
+.footer-nav li {
+  list-style: none;
+  font-size: .85em;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+.about a,
+.services-footer a,
+.industries a,
+.locations a {
+  text-decoration: none;
+  color: $white;
+}
+.about a:hover,
+.services-footer a:hover,
+.industries a:hover,
+.locations a:hover {
+  text-decoration: underline;
+}
+.footer-bottom {
+  background-color: $ebony;
+  height: 80px;
+
+  p {
+    padding-top: 15px;
+    margin-bottom: 0;
+    color: $white;
+    font-size: .8em;
+    line-height: 1.5em;
+  }
+}

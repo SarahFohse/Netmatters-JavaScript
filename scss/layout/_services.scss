@@ -1,0 +1,194 @@
+.services {
+  color: $blackish;
+  font-size: 2.7em;
+  font-weight: 600;
+}
+.tab-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+  text-align: center;
+  
+  cursor: pointer;
+
+  .button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 5%;
+    color: $white;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 30px 0 10px 0;
+    cursor: pointer;
+    }
+  h3 {
+    color: $blackish;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  p {
+    color: $blackish;
+    font-size: .8em;
+    line-height: 1.8em;
+    margin: -10px 30px;
+    padding-bottom: 110px;
+  }
+  a {
+
+    color: $blackish;
+    text-decoration: none;
+  }
+}
+
+.icon {
+  color: $white;
+  background-color: $purple;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 1.7em;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 15px;
+
+  i{
+    margin: auto;
+  }
+}
+.tab-1 .button,
+.tab-2 .button,
+.tab-3 .button,
+.tab-4 .button,
+.tab-5 .button,
+.tab-6 .button,
+.tab-7 .button {
+  display: inline-block;
+}
+
+
+.tab-1 .icon, 
+.tab-1 .button {
+  background-color: $hoki;
+}
+.tab-2 .icon, 
+.tab-2 .button {
+  background-color: $havelock-blue;
+}
+.tab-3 .icon, 
+.tab-3 .button {
+  background-color: $green;
+}
+.tab-4 .icon, 
+.tab-4 .button {
+  background-color: $valencia;
+}
+.tab-5 .icon, 
+.tab-5 .button {
+  background-color: $purple;
+}
+.tab-6 .icon, 
+.tab-6 .button {
+  background-color: $amaranth;
+}
+.tab-7 .icon, 
+.tab-7 .button {
+  background-color: $punch;
+}
+
+
+.tab-container .tab-1, 
+.tab-container .tab-2, 
+.tab-container .tab-3, 
+.tab-container .tab-4, 
+.tab-container .tab-5, 
+.tab-container .tab-6, 
+.tab-container .tab-7{
+  background-color: $white;
+  border: 1px solid $border;
+  border-radius: 15px;
+  padding: 20px 20px;
+  box-shadow: 0px 0px 20px $search-background;
+  position: relative;
+  top: 0;
+  transition: .5s ease;
+}
+.tab-container > div:hover h3,
+.tab-container > div:hover p {
+color: $white;
+}
+
+.tab-container > div:hover .icon,
+.tab-container > div:hover .button {
+background-color: $white;
+}
+
+.tab-1:hover {
+  background-color: $hoki;
+  top: -10px;
+  transition: .5s ease;
+}
+.tab-1:hover .icon,
+.tab-1:hover .button {
+  color: $hoki;
+}
+.tab-2:hover {
+background-color: $havelock-blue;
+top: -10px;
+transition: .5s ease;
+}
+.tab-2:hover .icon,
+.tab-2:hover .button {
+color: $havelock-blue;
+}
+.tab-3:hover {
+background-color: $green;
+top: -10px;
+transition: .5s ease;
+}
+.tab-3:hover .icon,
+.tab-3:hover .button {
+color: $green;
+}
+.tab-4:hover {
+background-color: $valencia;
+top: -10px;
+transition: .5s ease;
+}
+.tab-4:hover .icon,
+.tab-4:hover .button {
+color: $valencia;
+}
+.tab-5:hover {
+background-color: $purple;
+top: -10px;
+transition: .5s ease;
+}
+.tab-5:hover .icon,
+.tab-5:hover .button {
+color: $purple;
+}
+.tab-6:hover {
+background-color: $amaranth;
+top: -10px;
+transition: .5s ease;
+}
+.tab-6:hover .icon,
+.tab-6:hover .button {
+color: $amaranth;
+}
+.tab-7:hover {
+background-color: $punch;
+top: -10px;
+transition: .5s ease;
+}
+.tab-7:hover .icon,
+.tab-7:hover .button {
+color: $punch;
+}

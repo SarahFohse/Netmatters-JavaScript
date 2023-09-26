@@ -1,0 +1,87 @@
+.welcome {
+  margin-top: 30px;
+  padding: 40px 0;
+  background-color: $blackish;
+  color: $white;
+  font-size: 1.05em;
+  font-weight: 300;
+  line-height: 2em;
+
+  h3 {
+    margin-top: 40px;
+    font-size: 1.98em;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  p {
+    font-size: 1em;
+    margin: 30px 0;
+    }
+    span {
+      font-weight: 600;
+      color: $white;
+    }
+}
+.welcome a:hover {
+text-decoration: underline;
+}
+.quote {
+  color: #A3A9AC;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.stars {
+  font-size: 2.6em;
+  color: orange;
+  margin-bottom: 30px;
+  letter-spacing: -5px;
+}
+.review-text p{
+font-size: 1.3em;
+font-style: italic;
+font-weight: 600;
+line-height: 1.45em;
+}
+.welcome-link {
+  display: block;
+  text-align: center;
+  background-color: $charade;
+  padding: 15px 30px;
+  margin: 50px 0 30px 0;
+  margin-left: 0;
+  border-radius: 6px;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 400;
+  width: fit-content;
+}
+.welcome .welcome-link:hover {
+text-decoration: none;
+}
+.welcome-link:hover {
+background-color: $charade-dark;
+}
+.google-reviews {
+
+  padding: 10px 30px;
+  margin: 20px 0;
+  margin-top: 40px;
+  background-color: $google;
+}
+.google-reviews:hover {
+background-color: $google-dark;
+}
+.trustpilot-reviews {
+  padding: 10px 30px;
+  margin: 5px 0;
+  background-color: $trustpilot;
+}
+.trustpilot-reviews:hover {
+
+background-color: $trustpilot-dark;
+}

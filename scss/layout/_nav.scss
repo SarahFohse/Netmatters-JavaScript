@@ -1,0 +1,219 @@
+.desktop-nav {
+	display: none;
+	background-color: $blackish;
+
+	i {
+		display: block;
+		font-size: 1.2em;
+		text-align: center;
+		padding: 20px 0 15px 0;
+	}
+	a {
+    color: $white;
+    text-decoration: none;
+	}
+	nav {
+		position: relative;
+	}
+}
+.main-nav {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	margin: 0 auto;
+	overflow: visible;
+
+	li {
+		list-style: none;
+	}
+}
+
+.main-nav > li > a {
+	position: relative;
+	display: block;
+	height: 100%;
+
+	&:after {
+		content: "";
+		border-style: solid;
+		border-width: 33px 51px 0;
+		border-color: $havelock-blue transparent transparent transparent;
+		height: 0;
+		width: 0;
+		left: 0;
+		position: absolute;
+		top: 100%;
+		z-index: 100;
+		display: none;
+	}
+}
+.nav-section {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+		margin-bottom: 20px;
+		font-size: 1.1em;
+		font-weight: 500;
+		line-height: 1em;
+}
+.small {
+    font-size: .65em;
+		margin-bottom: 0;
+}
+.hidden-nav {
+    display: none;
+
+	a {
+		display: flex;
+		margin: 20px 0;
+	}
+	
+	
+	i {
+		padding: 0;
+		margin-top: 5px;
+		margin-right: 10px;
+		font-size: 1em;
+	}
+	.h2 {
+		width: 100%;
+		display: block;
+		font-size: 2em;
+		margin-top: 40px;
+		margin-bottom: 10px;
+		color: $white;
+	}
+	
+	span {
+		margin-left: 10px;
+		font-size: 1.2em;
+		line-height: 1.2em;
+		max-width: 75%;
+	}
+	
+	li {
+		width: 33%;
+	}
+}
+
+.hidden-nav a:hover span {
+	text-decoration: underline;
+}
+
+main {
+  overflow: hidden;
+}
+.main-nav > li:nth-child(1) i {
+	color: $hoki;
+}
+.main-nav > li:nth-child(2) i {
+	color: $havelock-blue;
+}
+.main-nav > li:nth-child(3) i {
+	color: $green;
+}
+.main-nav > li:nth-child(4) i {
+	color: $valencia;
+}
+.main-nav > li:nth-child(5) i {
+	color: $purple;
+}
+.main-nav > li:nth-child(6) i {
+	color: $amaranth;
+}
+.main-nav > li:nth-child(7) i {
+	color: $punch;
+}
+.main-nav li:hover i{
+	color: $white;
+}
+
+.main-nav > li:nth-child(1):hover {
+	background-color: $hoki;
+}
+.main-nav > li:nth-child(2):hover{
+	background-color: $havelock-blue;
+	}
+.main-nav > li:nth-child(3):hover {
+	background-color: $green;
+}
+.main-nav > li:nth-child(4):hover {
+	background-color: $valencia;
+}
+.main-nav > li:nth-child(5):hover {
+	background-color: $purple;
+}
+.main-nav > li:nth-child(6):hover {
+	background-color: $amaranth;
+}
+.main-nav > li:nth-child(7):hover {
+	background-color: $punch;
+}
+
+.main-nav > li:nth-child(1) > a::after {
+	border-top-color: $hoki;
+}
+.main-nav > li:nth-child(3) > a::after {
+	border-top-color: $green;
+}
+.main-nav > li:nth-child(4) > a::after {
+	border-top-color: $valencia;
+}
+.main-nav > li:nth-child(5) > a::after {
+	border-top-color: $purple;
+}
+.main-nav > li:nth-child(6) > a::after {
+	border-top-color: $amaranth;
+}
+.main-nav > li:nth-child(7) > a::after {
+	border-top-color: $punch;
+}
+
+
+.main-nav > li:nth-child(1) .hidden-nav {
+	background-color: $hoki-dark;
+}
+.main-nav > li:nth-child(2) .hidden-nav {
+	background-color: $havelock-blue-mid;
+}
+.main-nav > li:nth-child(3) .hidden-nav {
+	background-color: $green-dark;
+}
+
+.main-nav > li:nth-child(4) .hidden-nav {
+	background-color: $valencia-dark;
+}
+
+.main-nav > li:nth-child(5) .hidden-nav {
+	background-color: $purple-mid;
+}
+.main-nav > li:nth-child(6) .hidden-nav {
+	background-color: $amaranth-dark;
+}
+.main-nav > li:nth-child(7) .hidden-nav {
+	background-color: $punch-dark;
+}
+
+
+.main-nav > li:hover > a::after {
+	display: block;
+}
+
+.main-nav > li:hover .hidden-nav {
+	display: block;
+}
+
+.main-nav li .hidden-nav {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100vw;
+}
+
+.hidden-nav .container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 40px;
+	padding-left: 27px;
+	padding-right: 22px;
+}
+
