@@ -170,6 +170,14 @@ body {
     opacity: 1;
   }
 }
+#close-side-menu::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: block;
+  opacity: .5;
+}
 #hide-menu {
   display: none!important;
 }

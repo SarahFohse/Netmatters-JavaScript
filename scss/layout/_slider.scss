@@ -20,8 +20,9 @@
   color: $white;
   padding-bottom: 90px;
   width: 100%;
-  height: 550px;
+  height: 680px;
   transition: height .25s ease-out;
+  left: 0;
 
   h3 {
     font-size: 2.5em;
@@ -55,9 +56,6 @@
 } 
 .slider-img a:hover {
   background-color: $purple-dark;
-}
-.slider-img.first-active {
-  height: 680px;
 }
 .slider-img:nth-of-type(2) {
   background-image:
