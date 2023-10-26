@@ -18,67 +18,122 @@
 	  <?php include("inc/header.php"); ?>
     <main>
 
-    <div class="container">
+    <div class="container offices">
       <div class="office-tab">
         <div class="office-info">
           <img src="images/london.jpg" alt="London Office">
-          <h3>London Office</h3>
-          <p>Unit G6,<br>Pixel Business Center,<br>110 Brooker Road, Waltham Abbey,<br>London,<br>EN91JH</p>
-          <a href="#">02045397354</a>
-          <div>
-            <a href="#">View More</a>
+          <div class="info-content">
+            <a href="#" class="office-name">London Office</a>
+            <p>Unit G6,<br>Pixel Business Center,<br>110 Brooker Road, Waltham Abbey,<br>London,<br>EN9 1JH</p>
+            <a href="#" class="office-number">02045 397354</a>
+            <div class="office-btn">
+              <a href="#">View More</a>
+            </div>
           </div>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11767.910425271419!2d-0.01523071646948471!3d51.68000233203411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761fe63fd90547%3A0x59ebdd0b2c47b21c!2sNetmatters%20London!5e0!3m2!1sen!2suk!4v1694613203146!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <img src="images/nm-london.jpg" alt="London Office Maps">
       </div>
 
       <div class="office-tab">
         <div class="office-info">
-          <img src="images/london.jpg" alt="London Office">
-          <h3>London Office</h3>
-          <p>Unit G6,<br>Pixel Business Center,<br>110 Brooker Road, Waltham Abbey,<br>London,<br>EN91JH</p>
-          <a href="#">02045397354</a>
-          <div>
-            <a href="#">View More</a>
+          <img src="images/cambridge.jpg" alt="Cambridge Office">
+          <div class="info-content">
+            <a href="#" class="office-name">Cambridge Office</a>
+            <p>Unit 1.31,<br>St John's Innovation Centre,<br>Cowley Road, Milton,<br>Cambridge,<br>CB4 0WS</p>
+            <a href="#" class="office-number">01223 37 57 72</a>
+            <div class="office-btn">
+              <a href="#">View More</a>
+            </div>
           </div>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.4463841206734!2d0.15128277704004142!3d52.23527525727029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8711469d7de59%3A0x4ad66f1b36a452da!2sNetmatters%20Cambridge!5e0!3m2!1sen!2suk!4v1694613141715!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <img src="images/nm-camb.jpg" alt="Cambridge Office Maps">
       </div>
     
       <div class="office-tab">
         <div class="office-info">
-          <img src="images/london.jpg" alt="London Office">
-          <h3>London Office</h3>
-          <p>Unit G6,<br>Pixel Business Center,<br>110 Brooker Road, Waltham Abbey,<br>London,<br>EN91JH</p>
-          <a href="#">02045397354</a>
-          <div>
-            <a href="#">View More</a>
+          <img src="images/wymondham.jpg" alt="Wymondham Office">
+          <div class="info-content">
+            <a href="#" class="office-name">Wymondham Office</a>
+            <p>Unit 15,<br>Penfold Drive,<br>Gateway 11 Business Park,<br>Wymondham, Norfolk,<br>NR18 0WZ</p>
+            <a href="#" class="office-number">01603 70 40 20</a>
+            <div class="office-btn">
+              <a href="#">View More</a>
+            </div>
           </div>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.644379747!2d1.1339954766845473!3d52.576042072076014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d9ddac8dba0b4b%3A0x9c77ffbfe7911dab!2sNetmatters!5e0!3m2!1sen!2suk!4v1692192981237!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <img src="images/nm-wym.jpg" alt="Wymondham Office Maps">
       </div>
 
     
       <div class="office-tab">
         <div class="office-info">
-          <img src="images/london.jpg" alt="London Office">
-          <h3>London Office</h3>
-          <p>Unit G6,<br>Pixel Business Center,<br>110 Brooker Road, Waltham Abbey,<br>London,<br>EN91JH</p>
-          <a href="#">02045397354</a>
-          <div>
-            <a href="#">View More</a>
+          <img src="images/yarmouth-2.jpg" alt="Great Yarmouth Office">
+          <div class="info-content">
+            <a href="#" class="office-name">Great Yarmouth Office</a>
+            <p>Suite F23,<br>Beacon Innovation Center,<br>Beacon Park, Gorleston,<br>Great Yarmouth,<br>NR31 7RA</p>
+            <a href="#" class="office-number">01493 60 32 04</a>
+            <div class="office-btn">
+              <a href="#">View More</a>
+            </div>
           </div>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1715.2766080459753!2d1.712628985995402!3d52.55573141109476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47da0593b311cec3%3A0x1cb3c1d4c0b340f6!2sNetmatters%20Great%20Yarmouth!5e0!3m2!1sen!2suk!4v1692193267187!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        <img src="images/nm-yar.jpg" alt="Great Yarmouth Office Maps">
       </div>
+      <div class="contact">
+        <div class="email-info">
+          <p class="bold">Email us on:</p>
+          <a href="mailto:sarahfohse@gmail.com" class="bold">sales@netmatters.com</a>
+          <p class="bold">Business hours:</p>
+          <p class="bold">Monday - Friday 07:00 - 18:00</p>
+          <a href="#" class="bold">Out of hours IT Support <i class="fa-solid fa-chevron-down"></i></a>
+          <div class="hidden-paragraphs">
+            <p>Netmatters IT are offering an Out of Hours service for Emergency and Critical tasks.</p>
+            <p class="bold">Monday - Friday 18:00 - 22:00<br>Saturday 08:00 - 16:00<br>Sunday 10:00 - 18:00</p>
+            <p>To log a critical task, you will need to call our main line number and select Option 2 to leave an Out of Hours voicemail. A technician will contact you on the number provided within 45 minutes of your call.</p>
+          </div>
 
-    
+        </div>
 
+        <div class="contact-form">
+          <form>
+            <div class="name-email">
+							<div class="name">
+								<label for="name">Your Name </label>
+								<input type="text" id="name" name="name">
+							</div>
+              <div class="company">
+								<label for="company">Company Name </label>
+								<input type="text" id="company" name="company">
+							</div>
+							<div class="email">
+								<label for="email">Your Email </label>
+								<input type="email" id="email">
+							</div>
+              <div class="number">
+								<label for="number">Your Telephone Number </label>
+								<input type="number" id="number" name="numver">
+							</div>
+            </div>
+            <div class="message-box">
+              <label for="message">Message</label>
+              <textarea name="message" id="text-area">Hi, I am interested in discussing a Our Offices solution, could you please give me a call or send an email?</textarea>
+						</div>
+            <div class="checkbox">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <p>Please tick this box if you wish to receive marketing information from us. Please see our <a href="#">Privacy Policy</a> for more information on how we keep your data safe.</p>
+            </div>
+            <div class="send">
+              <input type="submit" value="SEND ENQUIRY">
+            </div>
+          </form>
+        </div>
+      </div>
 
 
     </div>
 
-    
+    <?php include("inc/newsletter.php"); ?>
     </main>
     
     <?php include("inc/footer.php"); ?>
