@@ -1,6 +1,9 @@
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 376px) {
   .slider-img {
     height: 600px;
+  }
+  .send {
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 462px) {
@@ -168,6 +171,9 @@
   .popup-btn {
     flex-wrap: nowrap;
   }
+  .contact-form {
+    width: 720px;
+  }
 }
 @media screen and (min-width: 992px) {
   .only-mobile {
@@ -328,6 +334,18 @@
   .office-tab {
     max-width: 450px;
   }
+  .contact-form {
+    width: 100%;
+  }
+  .input-fields { 
+   grid-template-columns: 1fr 1fr;
+   gap: 0 30px;
+  }
+  .page-title {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: $blackish;
+  }
+
 }
 @media screen and (min-width: 1260px) {
   .container {
@@ -423,5 +441,15 @@
   }
   .office-tab {
     max-width: 550px;
+  }
+
+  .contact {
+    flex-direction: row-reverse;
+  }
+  .email-info {
+    width: 30%;
+  }
+  .contact-form {
+    width: 70%;
   }
 }
