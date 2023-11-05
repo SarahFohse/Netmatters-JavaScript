@@ -1,3 +1,6 @@
+<?php 
+	ob_start();
+?>
 <header>
 		<div class="header container">
 			<div class="header-content">

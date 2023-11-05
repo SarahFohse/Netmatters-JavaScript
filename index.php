@@ -16,6 +16,7 @@
 	<div id="close-side-menu"></div>
 	<?php include("inc/consent-message.php"); ?>
 	<?php include("inc/header.php"); ?>
+	<?php include("inc/news.php"); ?>
     <main>
 			<section class="banner-container">
 				<div class="banner">
@@ -212,179 +213,237 @@
 						</a>
 					</div>
 					<div class="news-container">
-						<div class="article-1">
-							<a href="#">
-								<div class="tag-container">
-									<p class="tag-1"> Careers</p>
-								</div>
-								<img src="images/it-office-administrator-4v7i.jpg" alt="job advertisment for IT office administrator">
-								<div class="article-container">
-									<h4 class="article-title-1">IT Office Administrator</h4>
-									<p class="article-description">Salary Range £21,675 - £25,000 + Bonuses + Pension Hours 40 hours per week, Monday-Friday Location...</p>
-									<p class="read-more-1">Read more</p>
-									<hr>
-									<div class="author-info">
-										<img src="images/bethany-shakespeare-F6Iu.jpg" alt="author avatar" class="author-img">
-										<div>
-											<p>Posted by Bethany Shakespeare</p>
-											<p class="date">14th August 2023</p>
+						<style>
+							.tag {
+								position: absolute;
+								right: 0;
+								top: -3px;
+								color: #fff;
+								font-size: .75em;
+								font-weight: 600;
+								padding: 5px 10px;
+								text-transform: uppercase;
+							}
+
+							.article-title {
+								font-weight: 600;
+								margin-right: 35px;
+							}
+
+							.article-title span {
+								font-size: .9em;
+								color: #aaa;
+								font-weight: 300;
+								text-transform: uppercase;
+							}
+
+							.read-more {
+								color: #fff;
+								padding: 10px 15px;
+								text-transform: uppercase;
+								font-size: 1.1em;
+								border-radius: 3px;
+								width: fit-content;
+								margin-bottom: 30px;
+							}
+
+							.bespoke_software {
+								background-color: #67809f;
+							}
+
+							.it_support {
+								background-color: #4183d7;
+							}
+
+							.digital_marketing {
+								background-color: #2ecc71;
+							}
+
+							.telecoms_services {
+								background-color: #d64541;
+							}
+
+							.web_design {
+								background-color: #926fb1;
+							}
+
+							.cyber_security {
+								background-color: #f62459;
+							}
+
+							.developer_course {
+								background-color: #ce4125;
+							}
+
+
+							.article-title-bespoke_software {
+								color: #67809f;
+							}
+
+							.article-title-it_support {
+								color: #4183d7;
+							}
+
+							.article-title-digital_marketing {
+								color: #2ecc71;
+							}
+
+							.article-title-telecoms_services {
+								color: #d64541;
+							}
+
+							.article-title-web_design {
+								color: #926fb1;
+							}
+
+							.article-title-cyber_security {
+								color: #f62459;
+							}
+
+							.article-title-developer_course {
+								color: #ce4125;
+							}
+
+						</style>
+
+						<?php
+
+						for ($i = 0; $i < 3; $i++) {
+							echo "
+							<div class=\"article-" . $i + 1 . "\">
+								<a href=\"". $rows[$i]['link_url'] ."\">
+									<div class=\"tag-container\">
+										<p class=\"tag " . $rows[$i]['nav_category'] . "\"> ". $rows[$i]['article_category'] . "</p>
+									</div>
+									<img src=\"" . $rows[$i]['article_img'] . "\" alt=\"\">
+									<div class=\"article-container\">
+										<h4 class=\"article-title article-title-" . $rows[$i]['nav_category'] . "\">" . $rows[$i]['title'] . "<span>" . ($rows[$i]['read_time'] == '' ? '' : ' - ' . $rows[$i]['read_time']) . "</span></h4>
+										<p class=\"article-description\">" . $rows[$i]['description'] . "...</p>
+										<p class=\"read-more " . $rows[$i]['nav_category'] . "\">Read more</p>
+										<hr>
+										<div class=\"author-info\">
+											<img src=\"" . $rows[$i]['author_img'] . "\" alt=\"\">
+											<div>
+												<p>Posted by " . $rows[$i]['author'] . "</p>
+												<p class=\"date\">" . date_format(date_create($rows[$i]['date_posted']), "jS F Y") . "</p>
+											</div>
 										</div>
 									</div>
-								</div>
-							</a>
+								</a>
+							</div>
+							";
+						}
+
+						?>
+					</div>
+				</div>
+				<a href="#" class="view-work-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+				<div class="work-showcase">
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/home-gZQR.png" alt="Busseys"></a>
+						<div class="tooltiptext">
+							<p>Busseys</p>
+							<p class="tooltip-description">One of UK's leading Ford dealerships.</p>
 						</div>
-						<div class="article-2">
-							<a href="#">
-								<div class="tag-container">
-									<p class="tag-2"> Case Studies</p>
-								</div>
-								<img src="images/spicerhaart-upskilling-XfZq.png" alt="Spicerhaar Case study">
-								<div class="article-container">
-									<h4 class="article-title-2">Spicerhaart - Upskilling Staff Through the Sk... <span>- 4 minute read</span></h4>
-									<p class="article-description">The Client Spicerhaar is an independet residential sales and lettings organisation, recognised as...</p>
-									<p class="read-more-2">Read more</p>
-									<hr>
-									<div class="author-info">
-										<img src="images/netmatters-ltd-VXAv.png" alt="netmatters logo">
-										<div>
-											<p>Posted by Netmatters</p>
-											<p class="date">9th August 2023</p>
-										</div>
-									</div>
-								</div>
-							</a>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/crane_logo.png" alt="Crane Garden Buildings"></a>
+						<div class="tooltiptext">
+							<p>Crane Garden Buildings</p>
+							<p class="tooltip-description">Leading manufacturer and supplier of high-end garden rooms, summerhouses, workshops and sheds in the UK.</p>
 						</div>
-						<div class="article-3">
-							<a href="#">
-								<div class="tag-container">
-									<p class="tag-3"> Case Studies</p>
-								</div>
-								<img src="images/busseys-web-alGO.png" alt="busseys case study">
-								<div class="article-container">
-									<h4 class="article-title-3">Busseys - Web Case Study <span>- 5 minute read</span></h4>
-									<p class="article-description">The Client Busseys, a renowned, family-owned automotive dealership in Norfolk, has a rich heritage a...</p>
-									<p class="read-more-3">Read more</p>
-									<hr>
-									<div class="author-info">
-										<img src="images/netmatters-ltd-VXAv.png" alt="netmatters logo">
-										<div>
-											<p>Posted by Netmatters</p>
-											<p class="date">2nd August 2023</p>
-										</div>
-									</div>
-								</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/black_swan_logo.png" alt="Black Swan Care Group"></a>
+						<div class="tooltiptext">
+							<p>Black Swan Care Group</p>
+							<p class="tooltip-description">Black Swan Care Group own and manage 21 high-quality care and residential homes with a focus on putting the needs of their residents first.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
 							</a>
 						</div>
 					</div>
-					
-        </div>
-          <a href="#" class="view-work-all">View All <i class="fa-solid fa-arrow-right"></i></a>
-          <div class="work-showcase">
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/home-gZQR.png" alt="Busseys"></a>
-							<div class="tooltiptext">
-								<p>Busseys</p>
-								<p class="tooltip-description">One of UK's leading Ford dealerships.</p>
-							</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/xupes_logo.png" alt="Xupes"></a>
+						<div class="tooltiptext">
+							<p>Xupes</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/crane_logo.png" alt="Crane Garden Buildings"></a>
-							<div class="tooltiptext">
-								<p>Crane Garden Buildings</p>
-								<p class="tooltip-description">Leading manufacturer and supplier of high-end garden rooms, summerhouses, workshops and sheds in the UK.</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/beat_logo.png" alt="Beat Eating Disorders"></a>
+						<div class="tooltiptext">
+							<p>BEAT</p>
+							<p class="tooltip-description">The UK's eating disorder charity founded in 1989.</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/black_swan_logo.png" alt="Black Swan Care Group"></a>
-							<div class="tooltiptext">
-								<p>Black Swan Care Group</p>
-								<p class="tooltip-description">Black Swan Care Group own and manage 21 high-quality care and residential homes with a focus on putting the needs of their residents first.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/survey_solutions_logo.png" alt="Survey Solutions"></a>
+						<div class="tooltiptext">
+							<p>Survey Solutions</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/xupes_logo.png" alt="Xupes"></a>
-							<div class="tooltiptext">
-								<p>Xupes</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/girl_guides_anglia_logo.png" alt="Girlguiding Anglia"></a>
+						<div class="tooltiptext">
+							<p>Girl Guiding Anglia</p>
+							<p class="tooltip-description">Girl Guiding Anglia is part of Girlguiding, the UK's leading charity for girls and young women in the UK.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/beat_logo.png" alt="Beat Eating Disorders"></a>
-							<div class="tooltiptext">
-								<p>BEAT</p>
-								<p class="tooltip-description">The UK's eating disorder charity founded in 1989.</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/sweetzy_logo.png" alt="Sweetzy"></a>
+						<div class="tooltiptext">
+							<p>Sweetzy</p>
+							<p class="tooltip-description">Sweetzy are an online sweets retailer, based in Wymondham.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/survey_solutions_logo.png" alt="Survey Solutions"></a>
-							<div class="tooltiptext">
-								<p>Survey Solutions</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/howespercivallogo.png" alt="Howes Percival"></a>
+						<div class="tooltiptext">
+							<p>Howes Percival</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/girl_guides_anglia_logo.png" alt="Girlguiding Anglia"></a>
-							<div class="tooltiptext">
-								<p>Girl Guiding Anglia</p>
-								<p class="tooltip-description">Girl Guiding Anglia is part of Girlguiding, the UK's leading charity for girls and young women in the UK.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/girls_day_school_trust_logob.png" alt="GDST - Girls Day School Trust"></a>
+						<div class="tooltiptext">
+							<p>GDST</p>
+							<p class="tooltip-description">The <span>Girls' Day School Trust (GDST)</span> is the UK's leading family of 25 independent girls' schools</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/sweetzy_logo.png" alt="Sweetzy"></a>
-							<div class="tooltiptext">
-								<p>Sweetzy</p>
-								<p class="tooltip-description">Sweetzy are an online sweets retailer, based in Wymondham.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/ashcroftlogo_landscape_goldblack_DP60P-small.png" alt="Ashcroft"></a>
+						<div class="tooltiptext">
+							<p>Ashcroft Partnership LLP</p>
+							<p class="tooltip-description">Originally founded in 2006 as Ashcroft Anthony, they became Ashcroft Partnership LLP in 2020 and are one of the top chartered accountancy firms in Cambridge, advising entrepreneurs and families.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/howespercivallogo.png" alt="Howes Percival"></a>
-							<div class="tooltiptext">
-								<p>Howes Percival</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/onetravellerlogo_white_figuire.png" alt="ONE Traveller"></a>
+						<div class="tooltiptext">
+							<p>One Traveller</p>
+							<p class="tooltip-description"><span>One Traveller</span>, founded in 2007, is a leading provider of solo holidays for over 50s.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/girls_day_school_trust_logob.png" alt="GDST - Girls Day School Trust"></a>
-							<div class="tooltiptext">
-								<p>GDST</p>
-								<p class="tooltip-description">The <span>Girls' Day School Trust (GDST)</span> is the UK's leading family of 25 independent girls' schools</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/searles_logo.jpg" alt="Searles Leisure Resort"></a>
+						<div class="tooltiptext">
+							<p>Searles Leisure Resort</p>
+							<p class="tooltip-description">Searles Leisure Resort, on the beautiful North Norfolk coast, is an award-winning UK holiday resort for families.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/ashcroftlogo_landscape_goldblack_DP60P-small.png" alt="Ashcroft"></a>
-							<div class="tooltiptext">
-								<p>Ashcroft Partnership LLP</p>
-								<p class="tooltip-description">Originally founded in 2006 as Ashcroft Anthony, they became Ashcroft Partnership LLP in 2020 and are one of the top chartered accountancy firms in Cambridge, advising entrepreneurs and families.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
-						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/onetravellerlogo_white_figuire.png" alt="ONE Traveller"></a>
-							<div class="tooltiptext">
-								<p>One Traveller</p>
-								<p class="tooltip-description"><span>One Traveller</span>, founded in 2007, is a leading provider of solo holidays for over 50s.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
-						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/searles_logo.jpg" alt="Searles Leisure Resort"></a>
-							<div class="tooltiptext">
-								<p>Searles Leisure Resort</p>
-								<p class="tooltip-description">Searles Leisure Resort, on the beautiful North Norfolk coast, is an award-winning UK holiday resort for families.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>	
+					</div>
+				</div>	
 			</section>
-			<?php include("inc/newsletter.php"); ?>
+		<?php include("inc/newsletter.php"); ?>
     </main>
     <?php include("inc/footer.php"); ?>
 		<?php include("inc/side-menu.php"); ?>

@@ -108,38 +108,77 @@
 
           </div>
 
-          <div class="contact-form">
+          <?php include("inc/validate.php"); $formSuccess = ""; ?>
+          <style></style>
+          <style>
+          
+          html,
+          body {
+            scroll-behavior: smooth;
+          }
+
+          .form-alert {
+              display: flex;
+              width: 100%;
+              padding: 15px;
+              justify-content: space-between;
+              margin-bottom: 2rem;
+            }
+            
+            .form-alert i {
+              font-size: 1.4rem;
+              cursor: pointer;
+            }
+            
+            .phone-error {
+              background-color: red;
+              border: 2px solid darkred;
+            }
+            
+            .success-message {
+              background-color: green;
+              border: 2px solid darkgreen;
+            }
+
+            .js-hidden {
+              display: none;
+            }
+            </style>
+
+          <div class="contact-form" id="contact-form">
             <div class="form-content">
-              <form>
+              <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+                <?php echo $phoneErr;?>
+                <span class="success-message form-alert js-hidden">Form submitted :D<i class="fa-solid fa-x"></i></span>
                 <div class="input-fields">
                   <div class="name-contact name-email">
-                    <label for="name">Your Name </label>
-                    <input type="text" id="contact-name" name="name">
+                    <label for="contact-name">Your Name </label>
+                    <input type="text" id="contact-name" name="contact-name" value="<?php echo $fullName?>">
                   </div>
                   <div class="company">
-                    <label for="company">Company Name </label>
-                    <input type="text" id="contact-company" name="company">
+                    <label for="contact-company">Company Name </label>
+                    <input type="text" id="contact-company" name="contact-company" value="<?php echo $company?>">
                   </div>
                   <div class="email-contact name-email">
-                    <label for="email">Your Email </label>
-                    <input type="email" id="contact-email">
+                    <label for="contact-email">Your Email </label>
+                    <input type="email" id="contact-email" name="contact-email" value="<?php echo $contactMail?>">
                   </div>
                   <div class="number name-email">
-                    <label for="number">Your Telephone Number </label>
-                    <input type="number" id="contact-number" name="number">
+                    <label for="contact-number">Your Telephone Number </label>
+                    <input type="text" id="contact-number" name="contact-number" value="<?php echo $phoneNumber?>">
                   </div>
                 </div>
                 <div class="message-box name-email">
-                  <label for="message">Message</label> <br>
-                  <textarea name="message" id="contact-message">Hi, I am interested in discussing a Our Offices solution, could you please give me a call or send an email?</textarea>
+                  <label for="contact-message">Message</label> <br>
+                  <textarea name="contact-message" id="contact-message"><?php echo $textMessage?></textarea>
                 </div>
                 <div class="checkbox">
-                  <input type="checkbox">
+                  <input type="checkbox" name="contact-checkbox" id="contact-checkbox">
                   <span class="checkmark"></span>
                   <p>Please tick this box if you wish to receive marketing information from us. Please see our <a href="#">Privacy Policy</a> for more information on how we keep your data safe.</p>
                 </div>
                 <div class="send">
-                  <input type="submit" value="SEND ENQUIRY">
+                  <input type="submit" value="SEND ENQUIRY" name="submit_btn">
                   <p class="required">Fields Required</p>
                 </div>
                 
@@ -151,6 +190,8 @@
 
       </div>
 
+      <?php include("inc/connect.php"); ?>
+
       <?php include("inc/newsletter.php"); ?>
     </main>
     
@@ -159,5 +200,16 @@
 		<?php include("inc/cookie.php"); ?>
 		
 	<script src="javascript/main.js"></script>
+  <script>
+    const msgAlert = document.querySelectorAll('.form-alert');
+
+    msgAlert.forEach(msgBox => {
+      msgBox.querySelector('.fa-x').addEventListener('click', () => {
+        msgBox.classList.add('js-hidden');
+      });
+    });
+
+    if (window.location.href.indexOf('?submitted') > -1) {document.querySelector('.success-message').classList.remove('js-hidden')}
+  </script>
   </body>
 </html>
