@@ -11,7 +11,8 @@
   }
 }
 
-.name-email input {
+.name-email input,
+.company input {
   margin-bottom: 15px;
   padding-left: 15px;
   border: 1px solid $border;
@@ -33,7 +34,9 @@
   }
 }
 .name-email input,
-.name-email label {
+.name-email label,
+.company input,
+.company label {
   display: block;
   color: $blackish;
   font-size: 1.1em;

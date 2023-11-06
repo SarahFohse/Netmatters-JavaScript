@@ -213,104 +213,11 @@
 						</a>
 					</div>
 					<div class="news-container">
-						<style>
-							.tag {
-								position: absolute;
-								right: 0;
-								top: -3px;
-								color: #fff;
-								font-size: .75em;
-								font-weight: 600;
-								padding: 5px 10px;
-								text-transform: uppercase;
-							}
-
-							.article-title {
-								font-weight: 600;
-								margin-right: 35px;
-							}
-
-							.article-title span {
-								font-size: .9em;
-								color: #aaa;
-								font-weight: 300;
-								text-transform: uppercase;
-							}
-
-							.read-more {
-								color: #fff;
-								padding: 10px 15px;
-								text-transform: uppercase;
-								font-size: 1.1em;
-								border-radius: 3px;
-								width: fit-content;
-								margin-bottom: 30px;
-							}
-
-							.bespoke_software {
-								background-color: #67809f;
-							}
-
-							.it_support {
-								background-color: #4183d7;
-							}
-
-							.digital_marketing {
-								background-color: #2ecc71;
-							}
-
-							.telecoms_services {
-								background-color: #d64541;
-							}
-
-							.web_design {
-								background-color: #926fb1;
-							}
-
-							.cyber_security {
-								background-color: #f62459;
-							}
-
-							.developer_course {
-								background-color: #ce4125;
-							}
-
-
-							.article-title-bespoke_software {
-								color: #67809f;
-							}
-
-							.article-title-it_support {
-								color: #4183d7;
-							}
-
-							.article-title-digital_marketing {
-								color: #2ecc71;
-							}
-
-							.article-title-telecoms_services {
-								color: #d64541;
-							}
-
-							.article-title-web_design {
-								color: #926fb1;
-							}
-
-							.article-title-cyber_security {
-								color: #f62459;
-							}
-
-							.article-title-developer_course {
-								color: #ce4125;
-							}
-
-						</style>
-
 						<?php
 
 						for ($i = 0; $i < 3; $i++) {
 							echo "
-							<div class=\"article-" . $i + 1 . "\">
+							<div class=\"article\">
 								<a href=\"". $rows[$i]['link_url'] ."\">
 									<div class=\"tag-container\">
 										<p class=\"tag " . $rows[$i]['nav_category'] . "\"> ". $rows[$i]['article_category'] . "</p>

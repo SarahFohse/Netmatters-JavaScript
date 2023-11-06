@@ -1,6 +1,6 @@
 <?php 
 
-$phoneErrHtml = "<span class=\"phone-error form-alert\">Phone error womp womp<i class=\"fa-solid fa-x\"></i></span>";
+$phoneErrHtml = "<span class=\"phone-error form-alert\">The telephone format is incorrect.<i class=\"fa-solid fa-x\"></i></span>";
 $phoneErr = "";
 $validated = 0;
 
@@ -17,7 +17,6 @@ function test_input($data) {
     return $data;
 }
 
-// if($_SERVER["REQUEST_METHOD"] == "POST"){
 if (isset($_POST['submit_btn'])) {
     $fullName = test_input($_POST['contact-name']);
     $contactMail = test_input($_POST['contact-email']);

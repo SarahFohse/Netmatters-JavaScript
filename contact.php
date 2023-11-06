@@ -16,6 +16,7 @@
 	  <div id="close-side-menu"></div>
 	  <?php include("inc/consent-message.php"); ?>
 	  <?php include("inc/header.php"); ?>
+    <?php include("inc/validate.php"); ?>
     
     <main>
       <hr class="full-line">
@@ -99,8 +100,8 @@
             <a href="mailto:sarahfohse@gmail.com" class="bold">sales@netmatters.com</a>
             <p class="bold">Business hours:</p>
             <p class="bold">Monday - Friday 07:00 - 18:00</p>
-            <a href="#" class="bold">Out of hours IT Support <i class="fa-solid fa-chevron-down"></i></a>
-            <div class="hidden-paragraphs">
+            <a href="" class="bold hidden-p-btn">Out of hours IT Support <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="hidden-paragraphs js-hidden">
               <p>Netmatters IT are offering an Out of Hours service for Emergency and Critical tasks.</p>
               <p class="bold">Monday - Friday 18:00 - 22:00<br>Saturday 08:00 - 16:00<br>Sunday 10:00 - 18:00</p>
               <p>To log a critical task, you will need to call our main line number and select Option 2 to leave an Out of Hours voicemail. A technician will contact you on the number provided within 45 minutes of your call.</p>
@@ -108,48 +109,11 @@
 
           </div>
 
-          <?php include("inc/validate.php"); $formSuccess = ""; ?>
-          <style></style>
-          <style>
-          
-          html,
-          body {
-            scroll-behavior: smooth;
-          }
-
-          .form-alert {
-              display: flex;
-              width: 100%;
-              padding: 15px;
-              justify-content: space-between;
-              margin-bottom: 2rem;
-            }
-            
-            .form-alert i {
-              font-size: 1.4rem;
-              cursor: pointer;
-            }
-            
-            .phone-error {
-              background-color: red;
-              border: 2px solid darkred;
-            }
-            
-            .success-message {
-              background-color: green;
-              border: 2px solid darkgreen;
-            }
-
-            .js-hidden {
-              display: none;
-            }
-            </style>
-
           <div class="contact-form" id="contact-form">
             <div class="form-content">
               <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
                 <?php echo $phoneErr;?>
-                <span class="success-message form-alert js-hidden">Form submitted :D<i class="fa-solid fa-x"></i></span>
+                <span class="success-message form-alert js-hidden">Your message has been sent!<i class="fa-solid fa-x"></i></span>
                 <div class="input-fields">
                   <div class="name-contact name-email">
                     <label for="contact-name">Your Name </label>
@@ -200,16 +164,6 @@
 		<?php include("inc/cookie.php"); ?>
 		
 	<script src="javascript/main.js"></script>
-  <script>
-    const msgAlert = document.querySelectorAll('.form-alert');
-
-    msgAlert.forEach(msgBox => {
-      msgBox.querySelector('.fa-x').addEventListener('click', () => {
-        msgBox.classList.add('js-hidden');
-      });
-    });
-
-    if (window.location.href.indexOf('?submitted') > -1) {document.querySelector('.success-message').classList.remove('js-hidden')}
-  </script>
+  <script src="javascript/contact.js"></script>
   </body>
 </html>

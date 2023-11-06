@@ -5,45 +5,16 @@
   letter-spacing: 2px;
 }
 
-
-
-.article-title-1 {
-color: $havelock-blue;
-font-weight: 600;
-}
-.article-title-2 {
-color: $hoki;
-font-weight: 600;
-margin-right: 35px;
-}
-.article-title-3 {
-color: $purple;
-font-weight: 600;
-margin-right: 35px;
-}
-.article-title-2 span,
-.article-title-3 span {
-font-size: .9em;
-color:#aaa;
-font-weight: 300;
-text-transform: uppercase;
-}
-
 .article-description {
 font-size: .822em;
 margin-right: 20px;
 line-height: 1.7em;
 }
 
-
-.article-1 img,
-.article-2 img,
-.article-3 img {
+.article img {
   width: 100%;
 }
-.article-1,
-.article-2,
-.article-3 {
+.article {
   cursor: pointer;
   border: 1px solid $border;
   box-shadow: 0px 0px 20px $search-background;
@@ -61,78 +32,104 @@ line-height: 1.7em;
 .article-container {
   margin: 25px;
 }
-.article-1 a,
-.article-2 a,
-.article-3 a {
+.article a {
   color: $blackish;
   text-decoration: none;
 }
 .tag-container {
   position: relative;
 }
-.tag-1 {
+
+.tag {
   position: absolute;
   right: 0;
   top: -3px;
-  background-color: $havelock-blue;
-  color: $white;
+  color: #fff;
   font-size: .75em;
   font-weight: 600;
   padding: 5px 10px;
   text-transform: uppercase;
 }
-.tag-2 {
-  position: absolute;
-  right: 0;
-  top: -3px;
+
+.article-title {
+  font-weight: 600;
+  margin-right: 35px;
+}
+
+.article-title span {
+  font-size: .9em;
+  color: #aaa;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.read-more {
+  color: #fff;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  border-radius: 3px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+.bespoke_software {
   background-color: $hoki;
-  color: $white;
-  font-size: .75em;
-  font-weight: 600;
-  padding: 5px 10px;
-  text-transform: uppercase;
 }
-.tag-3 {
-  position: absolute;
-  right: 0;
-  top: -3px;
-  background-color: $purple;
-  color: $white;
-  font-size: .75em;
-  font-weight: 600;
-  padding: 5px 10px;
-  text-transform: uppercase;
-}
-.read-more-1 {
+
+.it_support {
   background-color: $havelock-blue;
-  color: $white;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  border-radius: 3px;
-  width: fit-content;
-  margin-bottom: 30px;
 }
-.read-more-2 {
-  background-color: $hoki;
-  color: $white;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  border-radius: 3px;
-  width: fit-content;
-  margin-bottom: 30px;
+
+.digital_marketing {
+  background-color: $green;
 }
-.read-more-3 {
+
+.telecoms_services {
+  background-color: $valencia;
+}
+
+.web_design {
   background-color: $purple;
-  color: $white;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  border-radius: 3px;
-  width: fit-content;
-  margin-bottom: 30px;
 }
+
+.cyber_security {
+  background-color: $amaranth;
+}
+
+.developer_course {
+  background-color: $punch;
+}
+
+
+.article-title-bespoke_software {
+  color: $hoki;
+}
+
+.article-title-it_support {
+  color: $havelock-blue;
+}
+
+.article-title-digital_marketing {
+  color: $green;
+}
+
+.article-title-telecoms_services {
+  color: $valencia;
+}
+
+.article-title-web_design {
+  color: $purple;
+}
+
+.article-title-cyber_security {
+  color: $amaranth;
+}
+
+.article-title-developer_course {
+  color: $punch;
+}
+
 hr {
   color: $border;
   border-width: 1px;
@@ -147,7 +144,6 @@ hr {
   margin-top: 20px;
   font-size: .9em;
   font-weight: 600;
-  margin-left: 25px;
 
   img {
     width: 50px;

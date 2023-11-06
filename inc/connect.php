@@ -1,8 +1,5 @@
 <?php
 
-// if(isset($_POST)){
-
-  // if($_SERVER["REQUEST_METHOD"] == "POST"){
   if (isset($_POST['submit_btn'])) {
     $fullName = test_input($_POST['contact-name']);
     $company = test_input($_POST['contact-company']);
@@ -51,23 +48,12 @@
   
       mysqli_stmt_execute($stmt);
 
-      // $fullName = "";
-      // $company = "";
-      // $contactMail = "";
-      // $phoneNumber = "";
-      // $textMessage = "Hi, I am interested in discussing a Our Offices solution, could you please give me a call or send an email?";
-      // $subscribed = 0;
-
       header( "Location: {$redirUrl}", true, 303);
       exit();
     } else {
       echo "<script>window.addEventListener('load', () => {document.getElementById('contact-form').scrollIntoView();})</script>";
     }
   }
-  
-// }
-
-// echo "Record saved.";
 ?>
 
 

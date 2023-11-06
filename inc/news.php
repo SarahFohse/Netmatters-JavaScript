@@ -11,7 +11,7 @@ if (mysqli_connect_errno()) {
   die("Connection error: " . mysqli_connect_error());
 }  
 
-$sql = "SELECT * FROM `news` LIMIT 0, 3;";
+$sql = "SELECT * FROM `news` LIMIT 3;";
 
 $result = $conn->query($sql);
 
