@@ -128,7 +128,7 @@
                     <input type="email" id="contact-email" name="contact-email" value="<?php echo $contactMail?>">
                   </div>
                   <div class="number name-email">
-                    <label for="contact-number">Your Telephone Number </label>
+                    <label for="contact-number" id="number-space">Your Telephone Number </label>
                     <input type="text" id="contact-number" name="contact-number" value="<?php echo $phoneNumber?>">
                   </div>
                 </div>
