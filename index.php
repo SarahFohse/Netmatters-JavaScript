@@ -14,185 +14,9 @@
   </head>
   <body id="stop-scrolling" class="">
 	<div id="close-side-menu"></div>
-	<div class="message">
-		<button type="button"><i class="fa-solid fa-message"></i></button>
-	</div>
-	<div class="consent">
-		<button type="button" id="consent-btn">Manage Consent</button>
-	</div>
-	<header>
-		<div class="header container">
-			<div class="header-content">
-				<a href="#" class="header-img"><img src="images/f-logo.png" alt="logo netmatters"></a>
-			</div>
-			<div class="header-buttons">
-				<button><i class="fa-solid fa-phone-volume"></i>
-				</button>
-        <div class="icon-disabled">
-          <a href="#"><i class="fa-solid fa-computer-mouse"></i>Support</a>
-          <a href="#"><i class="fa-regular fa-paper-plane"></i>
-          Contact</a>
-        </div>
-				<form class="search-bar">
-					<input type="search" placeholder="Search..." class="searchBox">
-					<button type="submit"><i class="fa-solid fa-magnifying-glass"></i>
-					</button>
-				</form>
-
-
-
-
-				<button id="nav-hamburger"><i class="fa-solid fa-bars"></i>
-				</button>
-				
-				
-
-
-
-
-			</div>
-		</div>
-		<form class="search-mobile">
-			<input type="search" placeholder="Search..." class="search-mobile-box">
-			<button type="submit"><i class="fa-solid fa-magnifying-glass"></i>
-			</button>
-		</form>
-		<div class="desktop-nav">
-			<nav>
-				<ul class="container main-nav">
-					<li><a href="#"><i class="nav-icons fa-solid fa-laptop"></i><span class="nav-section small">Bespoke</span><span class="nav-section"> Software</span></a>
-						<div class="hidden-nav">
-							<ul class="container"> 
-								<li class="h2">Our Bespoke Software Services
-								</li>
-								<li><a href="#"><i class="fa-solid fa-gears"></i>
-								<span>Bespoke CRM</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-briefcase"></i>
-									<span>Business Automation</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-shuffle"></i>
-									<span>Software Integrations</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-mobile-screen"></i><span>Mobile App Development</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-folder-open"></i>
-									<span>Bespoke Databases</span></a></li>
-									<li><a href="#"><i class="fa-solid fa-right-left"></i><span>Sharepoint Development</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-download"></i>
-									<span>Operational Systems</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-users"></i><span>Business Central Implementation</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-laptop"></i>
-									<span>Internet of Things (IoT) Software</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-cloud"></i>
-									<span>Intranet Development</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-cloud-arrow-down"></i>
-									<span>Customer Portal <br>Development</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-earth-europe"></i><span>Reporting Hub</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="#"><i class="fa-solid fa-display"></i><span class="nav-section small">IT</span><span class="nav-section"> Support</span></a>
-						<div class="hidden-nav">
-							<ul class="container"> 
-								<li class="h2">Our IT Support Services
-								</li>
-								<li><a href="#"><i class="fa-solid fa-headphones"></i>
-									<span>Managed IT Support</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-briefcase"></i><span>Business IT Support</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-laptop"></i><span>Office 365 for Business</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-graduation-cap"></i>
-									<span>IT Consultancy</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-cloud"></i><span>Cloud Service Provider</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-hard-drive"></i><span>Data Backup &amp; Disaster Recovery</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="#"><i class="fa-solid fa-chart-simple"></i><span class="nav-section small">Digital</span><span class="nav-section"> Marketing</span></a>
-						<div class="hidden-nav">
-							<ul class="container"> 
-								<li class="h2">Our Digital Marketing Services
-								</li>
-								<li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>
-									<span>Search Engine Optimisation (SEO)</span></a></li>
-								<li><a href="#"><i class="fa-regular fa-money-bill-1"></i><span>Pay Per Click Advertising (PPC)</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-arrow-trend-up"></i><span>Conversion Rate Optimisation (CRO)</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-envelope"></i>
-									<span>Email Marketing</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-users"></i>
-									<span>Social Media Marketing</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-pen"></i>
-									<span>Content Marketing</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="#"><i class="fa-solid fa-phone-volume"></i><span class="nav-section small">Telecoms</span><span class="nav-section"> Services</span></a>
-						<div class="hidden-nav">
-							<ul class="container"> 
-								<li class="h2">Our Telecom Services
-								</li>
-								<li><a href="#"><i class="fa-solid fa-ticket"></i>
-									<span>Business Mobile</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-phone"></i><span>Hosted VoIP Provider</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-square-phone"></i><span>Business VoIP System</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-gauge"></i>
-									<span>Business Broadband</span></a></li>
-								<li><a href="#"><i class="fa-regular fa-handshake"></i><span>Leased Lines Provider</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-phone-volume"></i><span>3CX Systems</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="#"><i class="fa-solid fa-code"></i><span class="nav-section small">Web</span><span class="nav-section"> Design</span></a>
-						<div class="hidden-nav">
-							<ul class="container"> 
-								<li class="h2">Our Website Design Services
-								</li>
-								<li><a href="#"><i class="fa-solid fa-pen"></i>
-									<span>Bespoke Website Design</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-cart-shopping fa-flip-horizontal"></i><span>eCommerce Website Design</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-display"></i>
-									<span>Pay Monthly Websites</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-bullhorn"></i>
-									<span>Branding &amp; Design</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-mobile-screen"></i><span>Mobile App Development</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-cloud"></i>
-									<span>Web Hosting</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="#"><i class="fa-solid fa-shield-halved"></i><span class="nav-section small">Cyber</span><span class="nav-section"> Security</span></a>
-						<div class="hidden-nav">
-							<ul class="container"> 
-								<li class="h2">Our Cyber Security Services
-								</li>
-								<li><a href="#"><i class="fa-solid fa-paste"></i>
-									<span>Cyber Security Assessment</span></a></li>
-								<li><a href="#"><i class="fa-regular fa-clock"></i>
-									<span>Cyber Security Management</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-flask"></i>
-									<span>Cyber Penetration Testing</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-graduation-cap"></i><span>Cyber Essentials Certification</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-shield-halved"></i><span>PCI Compliance</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-lock"></i>
-									<span>Hacking Prevention</span></a></li>
-							</ul>
-						</div>
-					</li>
-					<li><a href="#"><i class="fa-solid fa-graduation-cap"></i><span class="nav-section small">Developer</span><span class="nav-section"> Course</span></a>
-						<div class="hidden-nav">
-							<ul class="container"> 
-								<li class="h2">Our Developer Course Services
-								</li>
-								<li><a href="#"><i class="fa-solid fa-laptop"></i>
-									<span>Train For A Career In Tech</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-code"></i>
-									<span>Skills Bootcamp</span></a></li>
-								<li><a href="#"><i class="fa-solid fa-circle-question"></i><span>Scion Scheme Frequently Asked Questions</span></a></li>
-								<li><a href="#"><i class="fa-regular fa-handshake"></i>
-									<span>Scion Collaborators</span></a></li>
-							</ul>
-						</div>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+	<?php include("inc/consent-message.php"); ?>
+	<?php include("inc/header.php"); ?>
+	<?php include("inc/news.php"); ?>
     <main>
 			<section class="banner-container">
 				<div class="banner">
@@ -389,715 +213,149 @@
 						</a>
 					</div>
 					<div class="news-container">
-						<div class="article-1">
-							<a href="#">
-								<div class="tag-container">
-									<p class="tag-1"> Careers</p>
-								</div>
-								<img src="images/it-office-administrator-4v7i.jpg" alt="job advertisment for IT office administrator">
-								<div class="article-container">
-									<h4 class="article-title-1">IT Office Administrator</h4>
-									<p class="article-description">Salary Range £21,675 - £25,000 + Bonuses + Pension Hours 40 hours per week, Monday-Friday Location...</p>
-									<p class="read-more-1">Read more</p>
-									<hr>
-									<div class="author-info">
-										<img src="images/bethany-shakespeare-F6Iu.jpg" alt="author avatar" class="author-img">
-										<div>
-											<p>Posted by Bethany Shakespeare</p>
-											<p class="date">14th August 2023</p>
+						<?php
+
+						for ($i = 0; $i < 3; $i++) {
+							echo "
+							<div class=\"article\">
+								<a href=\"". $rows[$i]['link_url'] ."\">
+									<div class=\"tag-container\">
+										<p class=\"tag " . $rows[$i]['nav_category'] . "\"> ". $rows[$i]['article_category'] . "</p>
+									</div>
+									<img src=\"" . $rows[$i]['article_img'] . "\" alt=\"\">
+									<div class=\"article-container\">
+										<h4 class=\"article-title article-title-" . $rows[$i]['nav_category'] . "\">" . $rows[$i]['title'] . "<span>" . ($rows[$i]['read_time'] == '' ? '' : ' - ' . $rows[$i]['read_time']) . "</span></h4>
+										<p class=\"article-description\">" . $rows[$i]['description'] . "...</p>
+										<p class=\"read-more " . $rows[$i]['nav_category'] . "\">Read more</p>
+										<hr>
+										<div class=\"author-info\">
+											<img src=\"" . $rows[$i]['author_img'] . "\" alt=\"\">
+											<div>
+												<p>Posted by " . $rows[$i]['author'] . "</p>
+												<p class=\"date\">" . date_format(date_create($rows[$i]['date_posted']), "jS F Y") . "</p>
+											</div>
 										</div>
 									</div>
-								</div>
-							</a>
+								</a>
+							</div>
+							";
+						}
+
+						?>
+					</div>
+				</div>
+				<a href="#" class="view-work-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+				<div class="work-showcase">
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/home-gZQR.png" alt="Busseys"></a>
+						<div class="tooltiptext">
+							<p>Busseys</p>
+							<p class="tooltip-description">One of UK's leading Ford dealerships.</p>
 						</div>
-						<div class="article-2">
-							<a href="#">
-								<div class="tag-container">
-									<p class="tag-2"> Case Studies</p>
-								</div>
-								<img src="images/spicerhaart-upskilling-XfZq.png" alt="Spicerhaar Case study">
-								<div class="article-container">
-									<h4 class="article-title-2">Spicerhaart - Upskilling Staff Through the Sk... <span>- 4 minute read</span></h4>
-									<p class="article-description">The Client Spicerhaar is an independet residential sales and lettings organisation, recognised as...</p>
-									<p class="read-more-2">Read more</p>
-									<hr>
-									<div class="author-info">
-										<img src="images/netmatters-ltd-VXAv.png" alt="netmatters logo">
-										<div>
-											<p>Posted by Netmatters</p>
-											<p class="date">9th August 2023</p>
-										</div>
-									</div>
-								</div>
-							</a>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/crane_logo.png" alt="Crane Garden Buildings"></a>
+						<div class="tooltiptext">
+							<p>Crane Garden Buildings</p>
+							<p class="tooltip-description">Leading manufacturer and supplier of high-end garden rooms, summerhouses, workshops and sheds in the UK.</p>
 						</div>
-						<div class="article-3">
-							<a href="#">
-								<div class="tag-container">
-									<p class="tag-3"> Case Studies</p>
-								</div>
-								<img src="images/busseys-web-alGO.png" alt="busseys case study">
-								<div class="article-container">
-									<h4 class="article-title-3">Busseys - Web Case Study <span>- 5 minute read</span></h4>
-									<p class="article-description">The Client Busseys, a renowned, family-owned automotive dealership in Norfolk, has a rich heritage a...</p>
-									<p class="read-more-3">Read more</p>
-									<hr>
-									<div class="author-info">
-										<img src="images/netmatters-ltd-VXAv.png" alt="netmatters logo">
-										<div>
-											<p>Posted by Netmatters</p>
-											<p class="date">2nd August 2023</p>
-										</div>
-									</div>
-								</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/black_swan_logo.png" alt="Black Swan Care Group"></a>
+						<div class="tooltiptext">
+							<p>Black Swan Care Group</p>
+							<p class="tooltip-description">Black Swan Care Group own and manage 21 high-quality care and residential homes with a focus on putting the needs of their residents first.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
 							</a>
 						</div>
 					</div>
-					
-        </div>
-          <a href="#" class="view-work-all">View All <i class="fa-solid fa-arrow-right"></i></a>
-          <div class="work-showcase">
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/home-gZQR.png" alt="Busseys"></a>
-							<div class="tooltiptext">
-								<p>Busseys</p>
-								<p class="tooltip-description">One of UK's leading Ford dealerships.</p>
-							</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/xupes_logo.png" alt="Xupes"></a>
+						<div class="tooltiptext">
+							<p>Xupes</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/crane_logo.png" alt="Crane Garden Buildings"></a>
-							<div class="tooltiptext">
-								<p>Crane Garden Buildings</p>
-								<p class="tooltip-description">Leading manufacturer and supplier of high-end garden rooms, summerhouses, workshops and sheds in the UK.</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/beat_logo.png" alt="Beat Eating Disorders"></a>
+						<div class="tooltiptext">
+							<p>BEAT</p>
+							<p class="tooltip-description">The UK's eating disorder charity founded in 1989.</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/black_swan_logo.png" alt="Black Swan Care Group"></a>
-							<div class="tooltiptext">
-								<p>Black Swan Care Group</p>
-								<p class="tooltip-description">Black Swan Care Group own and manage 21 high-quality care and residential homes with a focus on putting the needs of their residents first.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/survey_solutions_logo.png" alt="Survey Solutions"></a>
+						<div class="tooltiptext">
+							<p>Survey Solutions</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/xupes_logo.png" alt="Xupes"></a>
-							<div class="tooltiptext">
-								<p>Xupes</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/girl_guides_anglia_logo.png" alt="Girlguiding Anglia"></a>
+						<div class="tooltiptext">
+							<p>Girl Guiding Anglia</p>
+							<p class="tooltip-description">Girl Guiding Anglia is part of Girlguiding, the UK's leading charity for girls and young women in the UK.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/beat_logo.png" alt="Beat Eating Disorders"></a>
-							<div class="tooltiptext">
-								<p>BEAT</p>
-								<p class="tooltip-description">The UK's eating disorder charity founded in 1989.</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/sweetzy_logo.png" alt="Sweetzy"></a>
+						<div class="tooltiptext">
+							<p>Sweetzy</p>
+							<p class="tooltip-description">Sweetzy are an online sweets retailer, based in Wymondham.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/survey_solutions_logo.png" alt="Survey Solutions"></a>
-							<div class="tooltiptext">
-								<p>Survey Solutions</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/howespercivallogo.png" alt="Howes Percival"></a>
+						<div class="tooltiptext">
+							<p>Howes Percival</p>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/girl_guides_anglia_logo.png" alt="Girlguiding Anglia"></a>
-							<div class="tooltiptext">
-								<p>Girl Guiding Anglia</p>
-								<p class="tooltip-description">Girl Guiding Anglia is part of Girlguiding, the UK's leading charity for girls and young women in the UK.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/girls_day_school_trust_logob.png" alt="GDST - Girls Day School Trust"></a>
+						<div class="tooltiptext">
+							<p>GDST</p>
+							<p class="tooltip-description">The <span>Girls' Day School Trust (GDST)</span> is the UK's leading family of 25 independent girls' schools</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/sweetzy_logo.png" alt="Sweetzy"></a>
-							<div class="tooltiptext">
-								<p>Sweetzy</p>
-								<p class="tooltip-description">Sweetzy are an online sweets retailer, based in Wymondham.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/ashcroftlogo_landscape_goldblack_DP60P-small.png" alt="Ashcroft"></a>
+						<div class="tooltiptext">
+							<p>Ashcroft Partnership LLP</p>
+							<p class="tooltip-description">Originally founded in 2006 as Ashcroft Anthony, they became Ashcroft Partnership LLP in 2020 and are one of the top chartered accountancy firms in Cambridge, advising entrepreneurs and families.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/howespercivallogo.png" alt="Howes Percival"></a>
-							<div class="tooltiptext">
-								<p>Howes Percival</p>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/onetravellerlogo_white_figuire.png" alt="ONE Traveller"></a>
+						<div class="tooltiptext">
+							<p>One Traveller</p>
+							<p class="tooltip-description"><span>One Traveller</span>, founded in 2007, is a leading provider of solo holidays for over 50s.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/girls_day_school_trust_logob.png" alt="GDST - Girls Day School Trust"></a>
-							<div class="tooltiptext">
-								<p>GDST</p>
-								<p class="tooltip-description">The <span>Girls' Day School Trust (GDST)</span> is the UK's leading family of 25 independent girls' schools</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
+					</div>
+					<div class="tooltip">
+						<a href="#"><img src="assets/view-all/searles_logo.jpg" alt="Searles Leisure Resort"></a>
+						<div class="tooltiptext">
+							<p>Searles Leisure Resort</p>
+							<p class="tooltip-description">Searles Leisure Resort, on the beautiful North Norfolk coast, is an award-winning UK holiday resort for families.</p>
+							<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
+							</a>
 						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/ashcroftlogo_landscape_goldblack_DP60P-small.png" alt="Ashcroft"></a>
-							<div class="tooltiptext">
-								<p>Ashcroft Partnership LLP</p>
-								<p class="tooltip-description">Originally founded in 2006 as Ashcroft Anthony, they became Ashcroft Partnership LLP in 2020 and are one of the top chartered accountancy firms in Cambridge, advising entrepreneurs and families.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
-						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/onetravellerlogo_white_figuire.png" alt="ONE Traveller"></a>
-							<div class="tooltiptext">
-								<p>One Traveller</p>
-								<p class="tooltip-description"><span>One Traveller</span>, founded in 2007, is a leading provider of solo holidays for over 50s.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
-						</div>
-						<div class="tooltip">
-							<a href="#"><img src="assets/view-all/searles_logo.jpg" alt="Searles Leisure Resort"></a>
-							<div class="tooltiptext">
-								<p>Searles Leisure Resort</p>
-								<p class="tooltip-description">Searles Leisure Resort, on the beautiful North Norfolk coast, is an award-winning UK holiday resort for families.</p>
-								<a href="#">View our case study <i class="fa-solid fa-arrow-right"></i>
-								</a>
-							</div>
-						</div>
-					</div>	
+					</div>
+				</div>	
 			</section>
-			<section class="newsletter">
-				<div class="container">
-          <h3>Email Newsletter Sign-Up</h3>
-          <form>
-            <div class="name-email">
-							<div class="name">
-								<label for="name">Your Name </label>
-								<input type="text" id="name" name="name">
-							</div>
-							<div class="email">
-								<label for="email">Your Email </label>
-								<input type="email" id="email">
-							</div>
-            </div>
-            <div class="checkbox">
-              <input type="checkbox">
-              <span class="checkmark"></span>
-              <p>Please tick this box if you wish to receive marketing information from us. Please see our <a href="#">Privacy Policy</a> for more information on how we keep your data safe.</p>
-            </div>
-            <div class="subscribe">
-              <input type="submit" value="Subscribe">
-            </div>
-          </form>
-        </div>
-			</section>
+		<?php include("inc/newsletter.php"); ?>
     </main>
-    <footer>
-			<div class="footer-content container">
-				<div>
-					<div>
-						<img src="images/nm-logo-white-med.png" alt="logo white">
-					</div>
-					<p class="footer-text">Follow us on:</p>
-					<div class="footer-icon">
-						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-						<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-						<a href="#"><i class="fa-brands fa-twitter"></i></a>
-						<a href="#"><i class="fa-brands fa-instagram"></i></a>
-					</div>
-				</div>
-				<div class="footer-nav">
-					<div class="about">
-						<h5>About Netmatters</h5>
-							<ul>
-								<li><a href="#">News</a></li>
-								<li><a href="#">Our Careers</a></li>
-								<li><a href="#">Our Team</a></li>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Cookie Policy</a></li>
-								<li><a href="#">Data Retention &amp; Disposal Policy</a></li>
-								<li><a href="#">CCTV Policy</a></li>
-								<li><a href="#">Environmental Policy</a></li>
-								<li><a href="#">Terms &amp; Conditions</a></li>
-							</ul>
-					</div>
-					<div class="services-footer">
-						<h5>Our Services</h5>
-							<ul>
-								<li><a href="#">Bespoke Software</a></li>
-								<li><a href="#">IT Support</a></li>
-								<li><a href="#">Digital Marketing</a></li>
-								<li><a href="#">Telecoms Services</a></li>
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">Cyber Security</a></li>
-								<li><a href="#">Developer Training</a></li>
-							</ul>
-					</div>
-					<div class="industries">
-						<h5>Our Industries</h5>
-							<ul>
-								<li><a href="#">Financial Services</a></li>
-								<li><a href="#">Construction</a></li>
-								<li><a href="#">Retail &amp; E-Commerce</a></li>
-								<li><a href="#">Non-Profits</a></li>
-								<li><a href="#">SME's</a></li>
-								<li><a href="#">Healthcare</a></li>
-								<li><a href="#">Education &amp; Training</a></li>
-								<li><a href="#">Travel &amp; Leisure</a></li>
-							</ul>
-					</div>
-					<div class="locations">
-						<h5>Locations</h5>
-							<ul>
-								<li><a href="#">London Office</a></li>
-								<li><a href="#">Cambridge Office</a></li>
-								<li><a href="#">Wymondham Office</a></li>
-								<li><a href="#">Great Yarmouth Office</a></li>
-							</ul>
-					</div>
-				</div>
-			</div>
-				<div class="footer-bottom">
-					<p class="container">&copy; Copyright Netmatters 2023.<br> All rights reserved. <br>- Sitemap</p>
-				</div>
-    </footer>
-		<section id="side-menu-section" class="hidden-sidebar">
-			<ul>
-				<li class="title-tab mobile-menu-btn">
-					<a href="#" class="link-text">Contact Us</a>
-				</li>
-				<li>
-					<div class="sub-menu-banner mobile-expanded">
-						<ul>
-							<li class="nav-item mobile-category">
-								<a href="#" class="mobile-menu-btn">
-									<div class="hidden-icon"><i class="fa-solid fa-laptop"></i></div>
-									<span class="link-icon"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="smaller">Bespoke</span><span class="link-text">Software</span>
-								</a>
-								<div class="nav-item-hidden">
-									<ul>
-										<li>
-											<a href="#">Bespoke CRM</a>
-										</li>
-										<li>
-											<a href="#">Business Automation</a>
-										</li>
-										<li>
-											<a href="#">Software Integrations</a>
-										</li>
-										<li>
-											<a href="#">Mobile App Development</a>
-										</li>
-										<li>
-											<a href="#">Bespoke Databases</a>
-										</li>
-										<li>
-											<a href="#">Sharepoint Development</a>
-										</li>
-										<li>
-											<a href="#">Operational Systems</a>
-										</li>
-										<li>
-											<a href="#">Business Central Implementation</a>
-										</li>
-										<li>
-											<a href="#">Internet of Things (IOT) Software</a>
-										</li>
-										<li>
-											<a href="#">Intranet Development</a>
-										</li>
-										<li>
-											<a href="#">Customer Portal Development</a>
-										</li>
-										<li>
-											<a href="#">Reporting Hub</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item mobile-category">
-								<a href="#" class="mobile-menu-btn">
-									<div class="hidden-icon"><i class="fa-solid fa-display"></i></div>
-									<span class="link-icon"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="smaller">IT</span><span class="link-text">Support</span>
-								</a>
-								<div class="nav-item-hidden">
-									<ul>
-										<li>
-											<a href="#">Managed IT Support</a>
-										</li>
-										<li>
-											<a href="#">Business IT Support</a>
-										</li>
-										<li>
-											<a href="#">Office 365 for Business</a>
-										</li>
-										<li>
-											<a href="#">IT Consultancy</a>
-										</li>
-										<li>
-											<a href="#">Cloud Service Provider</a>
-										</li>
-										<li>
-											<a href="#">Data Backup &amp; Disaster Recovery</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item mobile-category">
-								<a href="#" class="mobile-menu-btn">
-									<div class="hidden-icon"><i class="fa-solid fa-chart-simple"></i></div>
-									<span class="link-icon"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="smaller">Digital</span><span class="link-text">Marketing</span>
-								</a>
-								<div class="nav-item-hidden">
-									<ul>
-										<li>
-											<a href="#">Search Engine Optimisation (SEO)</a>
-										</li>
-										<li>
-											<a href="#">Pay Per Click Advertising (PPC)</a>
-										</li>
-										<li>
-											<a href="#">Conversion Rate Optimisation (CRO)</a>
-										</li>
-										<li>
-											<a href="#">Email Marketing</a>
-										</li>
-										<li>
-											<a href="#">Social Media Marketing</a>
-										</li>
-										<li>
-											<a href="#">Content Marketing</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item mobile-category">
-								<a href="#" class="mobile-menu-btn">
-									<div class="hidden-icon"><i class="fa-solid fa-phone-volume"></i></div>
-									<span class="link-icon"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="smaller">Telecoms</span><span class="link-text">Services</span>
-								</a>
-								<div class="nav-item-hidden">
-									<ul>
-										<li>
-											<a href="#">Business Mobile</a>
-										</li>
-										<li>
-											<a href="#">Hosted VOIP Provider</a>
-										</li>
-										<li>
-											<a href="#">Business VOIP Systems</a>
-										</li>
-										<li>
-											<a href="#">Business Broadband</a>
-										</li>
-										<li>
-											<a href="#">Leased Lines Provider</a>
-										</li>
-										<li>
-											<a href="#">3CX Systems</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item mobile-category">
-								<a href="#" class="mobile-menu-btn">
-									<div class="hidden-icon"><i class="fa-solid fa-code"></i></div>
-									<span class="link-icon"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="smaller">Web</span><span class="link-text">Design</span>
-								</a>
-								<div class="nav-item-hidden">
-									<ul>
-										<li>
-											<a href="#">Bespoke Website Design</a>
-										</li>
-										<li>
-											<a href="#">Ecommerce Website Design</a>
-										</li>
-										<li>
-											<a href="#">Pay Monthly Websites</a>
-										</li>
-										<li>
-											<a href="#">Branding &amp; Design</a>
-										</li>
-										<li>
-											<a href="#">Mobile App Development</a>
-										</li>
-										<li>
-											<a href="#">Web Hosting</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item mobile-category">
-								<a href="#" class="mobile-menu-btn">
-									<div class="hidden-icon"><i class="fa-solid fa-shield-halved"></i></div>
-									<span class="link-icon"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="smaller">Cyber</span><span class="link-text">Security</span>
-								</a>
-								<div class="nav-item-hidden">
-									<ul>
-										<li>
-											<a href="#">Cyber Security Assessment</a>
-										</li>
-										<li>
-											<a href="#">Cyber Security Management</a>
-										</li>
-										<li>
-											<a href="#">Cyber Penetration Testing</a>
-										</li>
-										<li>
-											<a href="#">Cyber Essential Certification</a>
-										</li>
-										<li>
-											<a href="#">PCI Compliance</a>
-										</li>
-										<li>
-											<a href="#">Hacking Prevention</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-							<li class="nav-item-hidden mobile-category">
-								<a href="#" class="mobile-menu-btn">
-									<div class="hidden-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-									<span class="link-icon"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="smaller">Developer</span><span class="link-text">Course</span>
-								</a>
-								<div class="nav-item-hidden">
-									<ul>
-										<li>
-											<a href="#">Train for a Career in Tech</a>
-										</li>
-										<li>
-											<a href="#">Skills Bootcamp</a>
-										</li>
-										<li>
-											<a href="#">Scion Scheme Frequently Asked Questions</a>
-										</li>
-										<li>
-											<a href="#" class="last">Scion Collaborators</a>
-										</li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</li>
-
-				<li class="menu-category mobile-hidden">
-					<a href="#">Services</a>
-					<div class="sub-menu-banner">
-						<ul>
-							<li class="nav-item">
-								<a href="#" >
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Bespoke Software</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">IT Support</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Digital Marketing</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Telecoms Services</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Web Design</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Cyber Security</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-
-				<li class="menu-category">
-					<a href="#">Our Work</a>
-					<div class="sub-menu-banner">
-						<ul>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Case Studies</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Our IT Clients</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="menu-category">
-					<a href="#">Our Knowledge</a>
-					<div class="sub-menu-banner">
-						<ul>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Technologies</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Industries</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">News</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Insights</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="menu-category">
-					<a href="#">Training</a>
-					<div class="sub-menu-banner">
-						<ul>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Train for a Career in Tech</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Skills Bootcamp</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">SCS Frequently Asked Questions</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Scion Collaborators</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="menu-category">
-					<a href="#">Our Company</a>
-					<div class="sub-menu-banner">
-						<ul>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Why choose us?</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Our Culture</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Our Team</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Our Careers</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Our Benefits</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="menu-category">
-					<a href="#">Contact Us</a>
-					<div class="sub-menu-banner">
-						<ul>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">London Office</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Cambridge Office</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Wymondham Office</span>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a href="#">
-									<span class="link-icons"><i class="fa-solid fa-angles-right"></i></span>
-									<span class="link-text">Great Yarmouth Office</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="menu-category">
-					<a href="#">Covid Risk Assessment</a>
-				</li>
-				<li class="menu-category only-mobile">
-					<a href="#">Support</a>
-				</li>
-			</ul>
-		</section>
-		<div class="scroll hide">
-			<div id="consent-popup" class="">
-				<h5>Cookies Policy</h5>
-				<hr>
-				<p>Our website uses cookies. This helps us provide you with a good experience on our website. To see what cookies we use and what they do, and to opt-in on non-essential cookies click "change settings". For a detailed explanation, click on "<a href="#">Privacy Policy</a>" otherwise click "Accept Cookies" to enter.</p>
-				<hr>
-				<div class="popup-btn">
-					<button id="settings">Change Settings</button>
-					<button id="accept">Accept Cookies</button>
-				</div>
-			</div>  
-    </div>
-    <div id= "background" class="cookie-bg bg-hidden"></div>
+    <?php include("inc/footer.php"); ?>
+		<?php include("inc/side-menu.php"); ?>
+		<?php include("inc/cookie.php"); ?>
+		<script src="javascript/banner.js"></script>
 		<script src="javascript/main.js"></script>
   </body>
 </html>
