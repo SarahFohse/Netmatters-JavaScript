@@ -1,12 +1,14 @@
+@media screen and (min-width: 299px) {
+  #number-space {
+    margin-bottom: -10px;
+  }
+}
 @media screen and (min-width: 376px) {
   .slider-img {
     height: 600px;
   }
   .send {
     flex-direction: row;
-  }
-  #number-space {
-    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 462px) {
@@ -338,7 +340,8 @@
     max-width: 450px;
   }
   .contact-form {
-    width: 100%;
+    width: 935px;
+    // max-width: 935px;
   }
   .input-fields { 
    grid-template-columns: 1fr 1fr;
@@ -375,8 +378,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
   }
-  .article-3 {
+  .article:last-of-type {
     display: block;
+  
   }
   .tab-1 {
     grid-area: tabone;
@@ -453,7 +457,8 @@
     width: 30%;
   }
   .contact-form {
-    width: 70%;
-    height: 575px;
+    width: 770px;
+    // max-width: 770px;
+    height: fit-content;
   }
 }

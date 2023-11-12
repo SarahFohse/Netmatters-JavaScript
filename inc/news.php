@@ -11,7 +11,7 @@ if (mysqli_connect_errno()) {
   die("Connection error: " . mysqli_connect_error());
 }  
 
-$sql = "SELECT * FROM `news` LIMIT 3;";
+$sql = "SELECT * FROM `news` ORDER BY date_posted DESC LIMIT 3;";
 
 $result = $conn->query($sql);
 
