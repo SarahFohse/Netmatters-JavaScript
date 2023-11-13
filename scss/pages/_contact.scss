@@ -9,6 +9,13 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  font-size: .85rem;
+
+  a {
+    text-decoration: none;
+    color: $blackish;
+    font-weight: bold;;
+  }
 }
 
 
@@ -18,8 +25,9 @@
   color: $white;
 
   h3 {
-    margin: 20px 0;
-    font-size: 2rem;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 2.25rem;
     font-weight: 400;
   }
 }
@@ -257,7 +265,7 @@ body {
 }
 .hidden-paragraphs {
   // display: block;
-  transition: height 300ms ease-in-out;
+  transition: height 500ms ease-in-out;
   height: 100%;
   overflow: hidden;
 }

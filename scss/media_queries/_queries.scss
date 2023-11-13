@@ -51,6 +51,9 @@
   .search-bar {
       display: none;
   }
+  .page-section {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -165,7 +168,7 @@
       font-size: .9em;
   }
   main {
-    margin-top: 120px;
+    margin-top: 112px;
   }
   #consent-popup {
     width: 600px;
@@ -179,6 +182,7 @@
   .contact-form {
     width: 720px;
   }
+  
 }
 @media screen and (min-width: 992px) {
   .only-mobile {
@@ -351,7 +355,9 @@
     background-color: rgba(255, 255, 255, 0.0);
     color: $blackish;
   }
-
+  .page-section {
+    margin-top: 25px;
+  }
 }
 @media screen and (min-width: 1260px) {
   .container {
@@ -414,11 +420,6 @@
       'tabone tabone tabone tabone tabtwo tabtwo tabtwo tabtwo tabthree tabthree tabthree tabthree'
       'tabfour tabfour tabfour tabfive tabfive tabfive tabsix tabsix tabsix tabseven tabseven tabseven';
   }
-
-
-
-
-
   .work-showcase a:nth-child(-n+12) {
       display: inline-flex;
   }
@@ -460,5 +461,8 @@
     width: 770px;
     // max-width: 770px;
     height: fit-content;
+  }
+  .page-section {
+    margin-top: 0;
   }
 }
