@@ -11,9 +11,9 @@
 
     if ($validated == 4) {
       $dbhost = "localhost";
-      $dbuser = "root";
-      $dbpass = "";
-      $db = "netmatters_assessment";
+      $dbuser = "sarahfoh_sarahfohse";
+      $dbpass = "aSljP,a6v{N8";
+      $db = "sarahfoh_netmatters";
   
   
       $conn = new mysqli($dbhost,$dbuser,$dbpass,$db);
