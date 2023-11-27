@@ -1,7 +1,9 @@
 <?php 
 
 $phoneErrHtml = "<span class=\"phone-error form-alert\">The telephone format is incorrect.<i class=\"fa-solid fa-x\"></i></span>";
+$emailErrHtml = "<span class=\"phone-error form-alert\">The email format is incorrect.<i class=\"fa-solid fa-x\"></i></span>";
 $phoneErr = "";
+$emailErr = "";
 $validated = 0;
 
 $fullName = "";
@@ -31,6 +33,7 @@ if (isset($_POST['submit_btn'])) {
     }
 
     if ($contactMail == "" || !preg_match('/^(\w|-|\.)+@([\w-]+\.)+[\w-]{2,4}$/', $contactMail)) {
+        $emailErr = $emailErrHtml;
         echo "<style>#contact-email{border-color:red}</style>";
     } else {
         $validated++;

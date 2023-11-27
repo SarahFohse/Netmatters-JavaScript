@@ -1,5 +1,9 @@
-<?php ob_start();?>
+<?php ob_start();
 
+require_once realpath(__DIR__ . "/vendor/autoload.php");
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -116,6 +120,7 @@
             <div class="form-content">
               <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
                 <?php echo $phoneErr;?>
+                <?php echo $emailErr;?>
                 <span class="success-message form-alert js-hidden">Your message has been sent!<i class="fa-solid fa-x"></i></span>
                 <div class="input-fields">
                   <div class="name-contact name-email">
